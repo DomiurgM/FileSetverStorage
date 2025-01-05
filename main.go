@@ -234,7 +234,6 @@ func loadConfig(filename string) (Config, error) {
 	return config, nil
 }
 
-// ... (функция main)
 func main() {
 
 	config, err := loadConfig("config.json")
